@@ -1,84 +1,7 @@
-/* Global Layout Set-up -------------------------------------- */
 
-* { 
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #F4F4F4;
-  font-size: 1.3em;
-  text-align: center;
-}
 
-img {
-	width: 100%;
-}
-
-p {
-	color: #777;
-	font-weight: 300;
-	line-height: 1.45em;
-}
-
-/* Link Styles -------------------------------------- */
-
-a {
-	text-decoration: none;
-	color: #444;
-}
-
-/* h Styles -------------------------------------- */
-
-h1 {
-	font-size: 2em;
-}
-
-h2 {
-	padding: 40px 0;
-	font-size: 1.1em;
-	color: #444;
-	margin: 0;
-	font-weight: 600;
-}
-
-h3 {
-	padding: 20px 20px;
-	margin: 16px;
-	font-size: 1.1em;
-	color: #444;
-	font-weight: 500;
-}
-
-/* Nav Styles -------------------------------------- */
-
-.nav {
-	font-weight: 500;
-}
-
-.nav li{
-	display: block;
-	background: #fff;
-	margin: 10px 24px;
-}
-
-.nav li a{
-	display: block;
-	width: 100%;
-	padding: 20px;
-	font-size: 0.9em;
-}
-
-.nav li a:hover{
-	color: #0399FF;
-}
-
-.name {
-	background: none;
-}
+/* Nav Styles -------------------------------------- *
 
 /* Section Style  -------------------------------------- */
 
@@ -225,15 +148,7 @@ li.footer-nav-tablet {
 
 	/* Nav Styles -------------------------------------- */
 
-	.nav li{
-		display: inline-block;
-		background: none;
-	}
 
-	.name {
-		margin: 10px;
-		padding-top: 24px;
-	}
 
 	/* Main Styles -------------------------------------- */
 
@@ -330,25 +245,6 @@ li.footer-nav-tablet {
 
 	/* Nav Style  -------------------------------------- */
 
-	.main-nav {
-		width: 100%;
-		max-width: 1100px;
-		margin: 10px auto 0;
-		padding: 0 30px 0 40px;
-	}
-
-	.name {
-		float: left;
-	}
-
-	.nav {
-		float: right;
-	}
-
-	.nav li a{
-		margin: 10px 4px;
-		padding: 10px 4px;
-	}
 
 	/* Main Style  -------------------------------------- */
 

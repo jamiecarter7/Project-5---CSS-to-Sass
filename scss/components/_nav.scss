@@ -1,0 +1,113 @@
+/* Nav Styles -------------------------------------- */
+
+.nav {
+	font-weight: 500;
+}
+
+.nav li{
+	display: block;
+
+	margin: 10px 24px;
+}
+
+.nav li a{
+	display: block;
+	width: 100%;
+	padding: 20px;
+	font-size: 0.9em;
+}
+
+.nav li a:hover{
+	color: #0399FF;
+}
+
+.name {
+	background: none;
+}
+
+////
+
+.nav li{
+    display: inline-block;
+    background: none;
+}
+
+.name {
+    margin: 10px;
+    padding-top: 24px;
+}
+
+//////
+
+
+	.main-nav {
+		width: 100%;
+		max-width: 1100px;
+		margin: 10px auto 0;
+		padding: 0 30px 0 40px;
+	}
+
+	.name {
+		float: left;
+	}
+
+	.nav {
+		float: right;
+	}
+
+	.nav li a{
+		margin: 10px 4px;
+		padding: 10px 4px;
+	}
+
+///
+
+nav {
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-name {
+
+}
+
+.nav-links {
+    font-weight: $font-weight--medium;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    @include mq(medium) {
+        flex-direction: row;
+        width:20%;
+    }
+
+    @extend %reset-list;
+
+    li {
+        background: #fff;
+        margin: 4px 0;
+        transition: all 0.4s;
+
+        &:hover {
+            transform: scale(1.03,1.03);
+            box-shadow: 0 2px 2px 0 #ccc;
+        }
+
+        a {
+            display: block;
+        	width: 100%;
+        	padding: 20px;
+        	font-size: em(18px);
+            transition: all 0.4s;
+        }
+        a:hover {
+            color: #0399FF;
+
+        }
+    }
+}
